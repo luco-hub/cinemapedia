@@ -1,5 +1,11 @@
 # cinemapedia
 
+
+#overview
+
+Proyecto de practica aplicando los conceptos de arquitectura limpia 
+
+
 #Dev
 
 
