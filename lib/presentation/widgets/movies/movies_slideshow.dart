@@ -42,7 +42,7 @@ class _Slide extends StatelessWidget {
   final Movie movie;
 
   const _Slide({
-    super.key, required this.movie,
+    required this.movie,
   });
 
   @override
@@ -62,7 +62,7 @@ class _Slide extends StatelessWidget {
 
     );
 
-    return Padding(padding: EdgeInsets.only(bottom: 30),
+    return Padding(padding: const EdgeInsets.only(bottom: 30),
     
     child: DecoratedBox(
       
