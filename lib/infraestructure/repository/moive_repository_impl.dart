@@ -34,5 +34,10 @@ class MoiveRepositoryImpl extends MoviesRepository {
 
     return datasource.geetMoviById(id);
   }
+  
+  @override
+  Future<List<Movie>> searchMovie(String query) {
+    return   datasource.searchMovie(query);
+  }
 
 }
